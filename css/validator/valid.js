@@ -82,11 +82,11 @@ $( document ).ready(function() {
             Subject : "Mail from "+name,
             Body : "<html><h2>Hey My Name : "+name+"</h2><strong>My Email "+mailto+"</strong><br></br><em>"+message+"</em></html>"
         }).then(
-            message => notif("Mail envoyé avec succès.","green")
+            message => notif("Mail sent successfully.","green")
         );
 
     }
     else
-        notif("Veuillez vérifier votre saisie.","red");
+        notif("Please check your entry.","red");
     });
 });
