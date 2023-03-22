@@ -9,10 +9,19 @@ const notif = (text, color) => {
 };
 
 const changeTheme = (themeName) => {
-  var cssFile1 = document.getElementById("theme1");
-  var cssFile1 = document.getElementById("theme1");
-  var cssFile1 = document.getElementById("theme1");
-  cssFile.href = "css/" + themeName + ".css";
+  var cssFile = document.getElementById("theme");
+  if(themeName=="dark"){
+    cssFile.href = "css/template-dark/dark.css";
+  }
+  else {
+    cssFile.href = "css/new-skin/classic-skin.css";
+  }
+  
+};
+
+const changeColor = (ColorName) => {
+  var cssFile = document.getElementById("color");
+    cssFile.href = "css/demos/"+ColorName+".css";
 };
 
 $(document).ready(function () {

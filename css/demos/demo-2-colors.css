@@ -4,19 +4,22 @@
 	*/
 
 	body {
-		background-color: #50a3a2;
+		background-color: #a38250;
 	}
 
 	.background.gradient {
-		background: #50a3a2;
-		background: -webkit-linear-gradient(top left, #50a3a2 0%, #78cc6d 100%);
-		background: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
+		background: #a38250;
+		background: -webkit-linear-gradient(top left, #a38250 0%, #ee5a38 100%);
+		background: linear-gradient(to bottom right, #a38250 0%, #ee5a38 100%);
 	}
 	
 	
 		/*
 		Primary Color
 	*/
+	.info-list ul li strong {
+		background: #fff;
+	}
 
 	.preloader .spinner .double-bounce1,
 	.preloader .spinner .double-bounce2,
@@ -39,7 +42,6 @@
 	.content-sidebar .close:hover:before, .content-sidebar .close:hover:after,
 	.header .menu-btn:hover span, .header .menu-btn:hover span:before,
 	.header .menu-btn:hover span:after,
-	.info-list ul li strong,
 	.profile .main-menu ul li.page_item_has_children.current_page_item > a:before,
 	.profile .main-menu ul li.page_item_has_children.current_page_item > a:after,
 	.profile .main-menu ul li.page_item_has_children:hover > a:before,

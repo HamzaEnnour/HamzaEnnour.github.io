@@ -57,10 +57,11 @@
 
     <!--
 		Template Colors
+     
 	-->
-    <link rel="stylesheet" id="theme1" href="css/demos/demo-2-colors.css" />
-    <link rel="stylesheet" id="theme2" href="css/new-skin/classic-skin.css" />
-    <link rel="stylesheet" id="theme3" href="css/template-dark/dark.css" />
+    <link rel="stylesheet" id="color" href="css/demos/demo-2-colors.css" />
+    <link rel="stylesheet" href="css/new-skin/classic-skin.css" />
+    <link rel="stylesheet" id="theme" href="css/template-dark/dark.css" />
 
     <!--[if lt IE 9]>
       <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -70,6 +71,7 @@
     <!--
 		Favicons
 	-->
+
     <link rel="shortcut icon" href="images/favicons/icons.ico" />
   </head>
 
@@ -132,9 +134,11 @@
             </div>
           </div>
 
-          <!-- menu btn -->
-          <a href="#" class="menu-btn"><span></span></a>
-
+          <!-- menu btn
+            <a href="#" class="menu-btn" style="position: fixed;left: 1320px;top: 250px;width: 70px;"><span></span></a>
+           -->
+           <a href="#" class="menu-btn" style="position: fixed;left: 1320px;top: 250px;width: 70px;"><span></span></a>
+        
           <!-- menu -->
           <div class="top-menu">
             <ul>
@@ -1487,22 +1491,7 @@
                           </div>
                         </div>
                       </div>
-                      <!--<div class="item">
-											<div class="revs-item">
-												<div class="text">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-												</div>
-												<div class="user">
-													<div class="img"><img src="images/man1.jpg" alt="" /></div>
-													<div class="info">
-														<div class="name">Helen Floyd</div>
-														<div class="company">Art Director</div>
-													</div>
-													<div class="clear"></div>
-												</div>
-											</div>
-										</div>
-										-->
+                     
                     </div>
                   </div>
                 </div>
@@ -1513,399 +1502,6 @@
           </div>
         </div>
 
-        <!--
-				Card - Works
-			
-        <div class="card-inner" id="works-card">
-          <div class="card-wrap">
-           
-            <div class="content works">
-             
-              <div class="title">Recent Works</div>
-
-           
-              <div class="filter-menu filter-button-group">
-                <div class="f_btn active">
-                  <label
-                    ><input
-                      type="radio"
-                      name="fl_radio"
-                      value="grid-item"
-                    />All</label
-                  >
-                </div>
-                <div class="f_btn">
-                  <label
-                    ><input
-                      type="radio"
-                      name="fl_radio"
-                      value="photo"
-                    />Image</label
-                  >
-                </div>
-                <div class="f_btn">
-                  <label
-                    ><input
-                      type="radio"
-                      name="fl_radio"
-                      value="gallery"
-                    />Gallery</label
-                  >
-                </div>
-                <div class="f_btn">
-                  <label
-                    ><input
-                      type="radio"
-                      name="fl_radio"
-                      value="video"
-                    />Video</label
-                  >
-                </div>
-                <div class="f_btn">
-                  <label
-                    ><input
-                      type="radio"
-                      name="fl_radio"
-                      value="music"
-                    />Music</label
-                  >
-                </div>
-                <div class="f_btn">
-                  <label
-                    ><input
-                      type="radio"
-                      name="fl_radio"
-                      value="design"
-                    />Content</label
-                  >
-                </div>
-              </div>
-
-            
-              <div class="row grid-items border-line-v">
-                
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a href="images/works/work1.jpg" class="has-popup-image">
-                        <img src="images/works/work1.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-image"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a
-                        href="images/works/work1.jpg"
-                        class="name has-popup-image"
-                        >Motorcycle Helmet</a
-                      >
-                      <div class="category">Image</div>
-                    </div>
-                  </div>
-                </div>
-
-               
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a
-                        href="https://vimeo.com/97102654"
-                        class="has-popup-video"
-                      >
-                        <img src="images/works/work2.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-videocamera"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a
-                        href="https://vimeo.com/97102654"
-                        class="name has-popup-video"
-                        >Minimalism Shapes</a
-                      >
-                      <div class="category">Video</div>
-                    </div>
-                  </div>
-                </div>
-
-              
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a
-                        href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&amp;show_artwork=true"
-                        class="has-popup-music"
-                      >
-                        <img src="images/works/work3.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-music-note"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a href="#" class="name has-popup">Staircase</a>
-                      <div class="category">Music</div>
-                    </div>
-                  </div>
-                </div>
-
-                
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a href="#popup-1" class="has-popup-media">
-                        <img src="images/works/work4.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-images"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a href="#popup-1" class="name has-popup-media"
-                        >Mobile Application</a
-                      >
-                      <div class="category">Content</div>
-                    </div>
-                    <div id="popup-1" class="popup-box mfp-fade mfp-hide">
-                      <div class="content">
-                        <div class="image">
-                          <img src="images/works/work4.jpg" alt="" />
-                        </div>
-                        <div class="desc">
-                          <div class="post-box">
-                            <h1>Mobile Application</h1>
-                            <div class="blog-detail">Design</div>
-                            <div class="blog-content">
-                              <p>
-                                So striking at of to welcomed resolved.
-                                Northward by described up household therefore
-                                attention. Excellence decisively nay man yet
-                                impression for contrasted remarkably.
-                              </p>
-                              <p>
-                                Forfeited you engrossed but gay sometimes
-                                explained. Another as studied it to evident.
-                                Merry sense given he be arise. Conduct at an
-                                replied removal an amongst. Remaining determine
-                                few her two cordially admitting old.
-                              </p>
-                              <blockquote>
-                                Vestibulum ante ipsum primis in faucibus orci
-                                luctus et ultrices posuere cubilia Curae;
-                                Pellentesque suscipit.
-                              </blockquote>
-                              <p>
-                                Tiled say decay spoil now walls meant house. My
-                                mr interest thoughts screened of outweigh
-                                removing. Evening society musical besides
-                                inhabit ye my. Lose hill well up will he over
-                                on. Increasing sufficient everything men him
-                                admiration unpleasing sex.
-                              </p>
-                              <ul class="list-style">
-                                <li>Greatest properly off ham exercise all.</li>
-                                <li>
-                                  Unsatiable invitation its possession nor off.
-                                </li>
-                                <li>
-                                  All difficulty estimating unreserved
-                                  increasing the solicitude.
-                                </li>
-                              </ul>
-                              <p>
-                                Unpleasant astonished an diminution up
-                                partiality. Noisy an their of meant. Death means
-                                up civil do an offer wound of.
-                              </p>
-                            </div>
-                            <a href="#" class="button">
-                              <span class="text">View Project</span>
-                              <span class="arrow"></span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a href="#gallery-1" class="has-popup-gallery">
-                        <img src="images/works/work5.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-images"></span>
-                        </span>
-                      </a>
-                      <div id="gallery-1" class="mfp-hide">
-                        <a href="images/works/work6.jpg"></a>
-                        <a href="images/works/work1.jpg"></a>
-                        <a href="images/works/work5.jpg"></a>
-                      </div>
-                    </div>
-                    <div class="desc">
-                      <a
-                        href="images/works/work5.jpg"
-                        class="name has-popup-image"
-                        >Gereal Travels</a
-                      >
-                      <div class="category">Gallery</div>
-                    </div>
-                  </div>
-                </div>
-
-              
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a
-                        href="https://w.soundcloud.com/player/?visual=true&amp;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&amp;show_artwork=true"
-                        class="has-popup-music"
-                      >
-                        <img src="images/works/work8.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-music-note"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a href="#" class="name has-popup">Daylight Entrance</a>
-                      <div class="category">Music</div>
-                    </div>
-                  </div>
-                </div>
-
-               
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a
-                        href="https://vimeo.com/97102654"
-                        class="has-popup-video"
-                      >
-                        <img src="images/works/work6.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-videocamera"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a
-                        href="https://vimeo.com/97102654"
-                        class="name has-popup-video"
-                        >Architecture</a
-                      >
-                      <div class="category">Video</div>
-                    </div>
-                  </div>
-                </div>
-
-               
-                <div
-                  class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h"
-                >
-                  <div class="box-item">
-                    <div class="image">
-                      <a href="#popup-2" class="has-popup-media">
-                        <img src="images/works/work7.jpg" alt="" />
-                        <span class="info">
-                          <span class="ion ion-images"></span>
-                        </span>
-                      </a>
-                    </div>
-                    <div class="desc">
-                      <a href="#popup-2" class="name has-popup-media"
-                        >Social Website</a
-                      >
-                      <div class="category">Content</div>
-                    </div>
-                    <div id="popup-2" class="popup-box mfp-fade mfp-hide">
-                      <div class="content">
-                        <div class="image">
-                          <img src="images/works/work7.jpg" alt="" />
-                        </div>
-                        <div class="desc">
-                          <div class="post-box">
-                            <h1>Mobile Application</h1>
-                            <div class="blog-detail">Design</div>
-                            <div class="blog-content">
-                              <p>
-                                So striking at of to welcomed resolved.
-                                Northward by described up household therefore
-                                attention. Excellence decisively nay man yet
-                                impression for contrasted remarkably.
-                              </p>
-                              <p>
-                                Forfeited you engrossed but gay sometimes
-                                explained. Another as studied it to evident.
-                                Merry sense given he be arise. Conduct at an
-                                replied removal an amongst. Remaining determine
-                                few her two cordially admitting old.
-                              </p>
-                              <blockquote>
-                                Vestibulum ante ipsum primis in faucibus orci
-                                luctus et ultrices posuere cubilia Curae;
-                                Pellentesque suscipit.
-                              </blockquote>
-                              <p>
-                                Tiled say decay spoil now walls meant house. My
-                                mr interest thoughts screened of outweigh
-                                removing. Evening society musical besides
-                                inhabit ye my. Lose hill well up will he over
-                                on. Increasing sufficient everything men him
-                                admiration unpleasing sex.
-                              </p>
-                              <ul class="list-style">
-                                <li>Greatest properly off ham exercise all.</li>
-                                <li>
-                                  Unsatiable invitation its possession nor off.
-                                </li>
-                                <li>
-                                  All difficulty estimating unreserved
-                                  increasing the solicitude.
-                                </li>
-                              </ul>
-                              <p>
-                                Unpleasant astonished an diminution up
-                                partiality. Noisy an their of meant. Death means
-                                up civil do an offer wound of.
-                              </p>
-                            </div>
-                            <a href="#" class="button">
-                              <span class="text">View Project</span>
-                              <span class="arrow"></span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="clear"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-	-->
         <!--
 				Card - Blog
 			-->
@@ -1920,15 +1516,17 @@
 
               <!-- content -->
               <div class="row border-line-v">
-                <!-- blog item -->
+                
+               
+  
                 <div class="col col-d-6 col-t-6 col-m-12">
                   <div class="box-item">
                     <div class="image">
                       <a href="#popup-75" class="has-popup-media">
                         <img
                           src="images/Projets/pi/1.png"
-                          style="height: 200px; width: 350px"
-                          alt="Gestion scolaire"
+                          alt="Closer (Smart Virtual Classroom)"
+                          style="height: 200px; width: 350px;object-fit: fill;"
                         />
                         <span class="info">
                           <span class="ion ion-document-text"></span>
@@ -1965,7 +1563,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/1.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -1977,7 +1575,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/2.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -1989,7 +1587,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/3.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2001,7 +1599,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/4.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2013,7 +1611,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/5.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2025,7 +1623,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/6.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2037,7 +1635,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/7.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2049,7 +1647,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/8.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2061,7 +1659,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/9.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2073,7 +1671,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/pi/10.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2093,7 +1691,7 @@
                                 sharing capabilities for teachers and tutors who
                                 want to conduct highly interactive live online
                                 teaching sessions.<br />
-                                • Technologies & Tools : Node.js, React.js,
+                                <b>• Technologies & Tools :</b> Node.js, React.js,
                                 Express.js, MongoDB, Postman, VSCode, GitHub,
                                 Firebase Cloud, WebRTC, PeerJs, oauth2
                                 authentication
@@ -2106,7 +1704,1209 @@
                     <!-- ttt-->
                   </div>
                 </div>
-                <!-- blog item -->
+              
+                              <!-- blog item -->
+                              <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                  <div class="image">
+                                    <a href="#popup-77" class="has-popup-media">
+                                      <img
+                                        src="images/Projets/lowcost/1.png"
+                                        alt="Travel Agency"
+                                        style="height: 200px; width: 350px;object-fit: fill;"
+                                      />
+                                      <span class="info">
+                                        <span class="ion ion-document-text"></span>
+                                      </span>
+                                    </a>
+                                  </div>
+                                  <div class="desc">
+                                    <a href="#popup-77" class="has-popup-media">
+                                      <span class="date">Sept. 2020</span>
+                                    </a>
+                                    <a
+                                      href="#popup-77"
+                                      class="name"
+                                      class="name has-popup-media"
+                                      >Travel Agency
+                                    </a>
+                                    <div class="text">
+                                      <p>
+                                        Rebuilding a WordPress-based website of a travel agency, using Node.js as
+              the back-end and Vue.js as the front-end.
+                                      </p>
+                                      
+                                    </div>
+                                  </div>
+                                  <!--   tttt-->
+                                  <div id="popup-77" class="popup-box mfp-fade mfp-hide">
+                                    <div class="content">
+                                      <div class="revs-carousel default-revs">
+                                        <div class="owl-carousel">
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/lowcost/1.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/lowcost/2.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/lowcost/3.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/lowcost/4.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/lowcost/5.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                         
+                                        </div>
+                                      </div>
+                                      <div class="desc">
+                                        <div class="post-box">
+                                          <h1>Web Platform</h1>
+                                          <div class="blog-detail">Project</div>
+                                          <div class="blog-content">
+                                            <p>
+                                              Rebuilding a WordPress-based website of a travel agency, using Node.js as
+                    the back-end and Vue.js as the front-end.
+                                            </p>
+                                            <p>
+                                              Update of the appointment and hotel management on the website.
+                                            </p>
+                                            <p>
+                                              <b>Technologies and tools:</b> Nodejs V13, VueJs V2.8, Vue Router, ExpressJs,
+                    MySql, Postman, VSCode.
+                    
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- ttt-->
+                                </div>
+                              </div>
+                              <!-- blog item -->
+                              <!-- blog item -->
+                              <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                  <div class="image">
+                                    <a href="#popup-277" class="has-popup-media">
+                                      <img
+                                        src="images/Projets/kadam/1.png"
+                                        alt="Kaadam"
+                                        style="height: 200px; width: 350px;object-fit: fill;"
+                                      />
+                                      <span class="info">
+                                        <span class="ion ion-document-text"></span>
+                                      </span>
+                                    </a>
+                                  </div>
+                                  <div class="desc">
+                                    <a href="#popup-277" class="has-popup-media">
+                                      <span class="date">Juil. 2021</span>
+                                    </a>
+                                    <a
+                                      href="#popup-277"
+                                      class="name"
+                                      class="name has-popup-media"
+                                      >Kaadam
+                                    </a>
+                                    <div class="text">
+                                      <p>
+                                        Development of a web application that enables a company to recruit
+students for specific tasks within projects.
+                                      </p>
+                                      
+                                    </div>
+                                  </div>
+                                  <!--   tttt-->
+                                  <div id="popup-277" class="popup-box mfp-fade mfp-hide">
+                                    <div class="content">
+                                      <div class="revs-carousel default-revs">
+                                        <div class="owl-carousel">
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/1.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/2.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/3.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/4.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/5.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/6.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/7.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/kadam/8.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                         
+                                        </div>
+                                      </div>
+                                      <div class="desc">
+                                        <div class="post-box">
+                                          <h1>Kaadam</h1>
+                                          <div class="blog-detail">Project</div>
+                                          <div class="blog-content">
+                                            <p>
+                                              Development of a web application that enables a company to recruit
+students for specific tasks within projects.
+                                            </p>
+                                            <p>
+                                              Implementation of features such as managing teams, missions, contracts,
+and task assignment process.
+                                            </p>
+                                            <p>
+                                              <b>Technologies and tools:</b> SpringBoot, Angular v12, Postman, Mysql, VS
+                                              Code, Firebase, Spring Security, Docker.
+                    
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- ttt-->
+                                </div>
+                              </div>
+                              <!-- blog item -->
+                              <!-- blog item -->
+                              <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                  <div class="image">
+                                    <a href="#popup-88" class="has-popup-media">
+                                      <img
+                                        src="images/Projets/projetResto/9.jpg"
+                                        alt="Project for a restaurant"
+                                        style="height: 200px; width: 350px;object-fit: fill;"
+                                      />
+                                      <span class="info">
+                                        <span class="ion ion-document-text"></span>
+                                      </span>
+                                    </a>
+                                  </div>
+                                  <div class="desc">
+                                    <a href="#popup-88" class="has-popup-media">
+                                      <span class="date">Nov. 2021</span>
+                                    </a>
+                                    <a
+                                      href="#popup-88"
+                                      class="name"
+                                      class="name has-popup-media"
+                                      >Project for a restaurant
+                                    </a>
+                                    <div class="text">
+                                      <p>
+                                        Development of a restaurant owner dashboard, account management,
+              product and category management, integration of an online payment
+              system, and complaint management on the first platform.
+              
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <!--   tttt-->
+                                  <div id="popup-88" class="popup-box mfp-fade mfp-hide">
+                                    <div class="content">
+                                      <div class="revs-carousel default-revs">
+                                        <div class="owl-carousel">
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/1.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/2.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/3.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/4.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/5.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/6.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/7.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/8.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/9.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/10.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/11.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/12.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/13.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/projetResto/14.jpg"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="desc">
+                                        <div class="post-box">
+                                          <h1>Web Platform</h1>
+                                          <div class="blog-detail">Project</div>
+                                          <div class="blog-content">
+                                            <p>
+                                              Development of a restaurant owner dashboard, account management,
+                    product and category management, integration of an online payment
+                    system, and complaint management on the first platform.
+                    
+                                            </p>
+                                            <p>
+                                              Design and implementation of the second platform, enabling customers to
+                                              order and pay online and communicate with the delivery person via a chat
+                                              feature. (Collaborative project with four freelancers)                          
+                                            </p>
+                                            <p>
+                                              <b>Technologies and tools :</b> Nodejs v14, Expressjs, NextJs v13, Tailwindcss,
+                    Redux, ReactJs v15, AWS, Firebase,Trello, Scrum, Slack.                          
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- ttt-->
+                                </div>
+                              </div>
+                              <!-- blog item -->
+                              <!-- blog item -->
+                              <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                  <div class="image">
+                                    <a href="#popup-188" class="has-popup-media">
+                                      <img
+                                        src="images/Projets/irc/1.png"
+                                        alt="Project for a company owners"
+                                        style="height: 200px; width: 350px;object-fit: fill;"
+                                      />
+                                      <span class="info">
+                                        <span class="ion ion-document-text"></span>
+                                      </span>
+                                    </a>
+                                  </div>
+                                  <div class="desc">
+                                    <a href="#popup-188" class="has-popup-media">
+                                      <span class="date">Oct. 2022</span>
+                                    </a>
+                                    <a
+                                      href="#popup-188"
+                                      class="name"
+                                      class="name has-popup-media"
+                                      >Project for a company owners
+                                    </a>
+                                    <div class="text">
+                                      <p>
+                                        Development of web application for monitoring candidates during online
+recruitment tests and detecting potential frauds.
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <!--   tttt-->
+                                  <div id="popup-188" class="popup-box mfp-fade mfp-hide">
+                                    <div class="content">
+                                      <div class="revs-carousel default-revs">
+                                        <div class="owl-carousel">
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/1.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/2.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/3.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/4.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/5.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/6.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/7.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/8.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/9.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/10.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/11.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/12.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/13.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/14.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/15.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/16.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/17.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/18.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/19.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/20.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/21.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/22.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/23.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/24.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/irc/25.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="desc">
+                                        <div class="post-box">
+                                          <h1>Project for company owners</h1>
+                                          <div class="blog-detail">Project</div>
+                                          <div class="blog-content">
+                                            <p>
+                                              Development of web application for monitoring candidates during online
+                    recruitment tests and detecting potential frauds.
+                    
+                                            </p>
+                                            <p>
+                                              <b>Technologies and tools :</b> Nodejs v17, React.Js v16, ExpressJs, Postman,
+                    VSCode, GitHub, Firebase Cloud, Google Cloud, Google Function, ChartJs,
+                    Docker, Jira.                          
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- ttt-->
+                                </div>
+                              </div>
+                              <!-- blog item -->
+                              <!-- blog item -->
+                              <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                  <div class="image">
+                                    <a href="#popup-588" class="has-popup-media">
+                                      <img
+                                        src="images/Projets/gark/1.png"
+                                        alt="Platform for sport managment"
+                                        style="height: 200px; width: 350px;object-fit: fill;"
+                                      />
+                                      <span class="info">
+                                        <span class="ion ion-document-text"></span>
+                                      </span>
+                                    </a>
+                                  </div>
+                                  <div class="desc">
+                                    <a href="#popup-588" class="has-popup-media">
+                                      <span class="date">Sept. 2021</span>
+                                    </a>
+                                    <a
+                                      href="#popup-588"
+                                      class="name"
+                                      class="name has-popup-media"
+                                      >Platform for sport managment
+                                    </a>
+                                    <div class="text">
+                                      <p>
+                                        Implementation of sophisticated features such as field management, event
+creation, financial management, subscription management, and a player
+interface.
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <!--   tttt-->
+                                  <div id="popup-588" class="popup-box mfp-fade mfp-hide">
+                                    <div class="content">
+                                      <div class="revs-carousel default-revs">
+                                        <div class="owl-carousel">
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/1.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/2.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/3.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/4.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/5.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/6.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/7.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/8.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/9.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/10.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/11.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/12.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/13.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/14.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/15.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/16.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/17.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/18.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/19.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          <div class="item">
+                                            <div class="revs-item">
+                                              <div class="img">
+                                                <img
+                                                  src="images/Projets/gark/20.png"
+                                                  style="height: 450px; width: 713px;object-fit: fill;"
+                                                  alt=""
+                                                />
+                                              </div>
+                                              <div class="clear"></div>
+                                            </div>
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                      <div class="desc">
+                                        <div class="post-box">
+                                          <h1>Platform for sport managment</h1>
+                                          <div class="blog-detail">Project</div>
+                                          <div class="blog-content">
+                                            <p>
+                                              Design and development of three mini-applications, including Fields, Club,
+and Site Gark.
+                    
+                                            </p>
+                                            <p>
+                                              Implementation of sophisticated features such as field management, event
+creation, financial management, subscription management, and a player
+interface.
+                                            </p>
+                                            <p>
+                                              <b>Technologies and tools :</b> Nodejs v15, Angular v12, ExpressJs, MongoDB,
+                                              Postman, VSCode, GitHub, Firebase Cloud, AWS, NGINX, ChartJs, Cron
+                                              Schedule.                                                         
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- ttt-->
+                                </div>
+                              </div>
+                              <!-- blog item -->
                 <!-- blog item -->
                 <div class="col col-d-6 col-t-6 col-m-12">
                   <div class="box-item">
@@ -2114,8 +2914,8 @@
                       <a href="#popup-5" class="has-popup-media">
                         <img
                           src="images/Projets/web1/1.png"
-                          style="height: 200px; width: 350px"
-                          alt="Gestion scolaire"
+                          alt="EdTech (School Management System)"
+                          style="height: 200px; width: 350px;object-fit: fill;"
                         />
                         <span class="info">
                           <span class="ion ion-document-text"></span>
@@ -2151,7 +2951,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web1/1.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2163,7 +2963,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web1/2.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2175,7 +2975,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web1/3.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2187,7 +2987,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web1/4.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2199,7 +2999,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web1/5.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2211,7 +3011,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web1/6.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2231,7 +3031,7 @@
                                 system, it ensures the smooth running of classes
                                 as well as offering access to parents to follow
                                 their children.<br />
-                                • Technologies & Tools : Symfony, JavaFX,
+                                <b>• Technologies & Tools :</b> Symfony, JavaFX,
                                 CodeName One, Javascript, Mysql, Vscode, Github,
                                 Trello, Scrum, Slack
                               </p>
@@ -2250,8 +3050,8 @@
                       <a href="#popup-6" class="has-popup-media">
                         <img
                           src="images/Projets/web2/1.png"
-                          style="height: 200px; width: 350px"
                           alt="Web development"
+                          style="height: 200px; width: 350px;object-fit: fill;"
                         />
                         <span class="info">
                           <span class="ion ion-document-text"></span>
@@ -2283,7 +3083,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/1.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2295,7 +3095,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/2.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2307,7 +3107,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/3.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2319,7 +3119,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/4.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2331,7 +3131,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/5.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2343,7 +3143,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/6.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2355,7 +3155,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/web2/7.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2386,11 +3186,11 @@
                 <div class="col col-d-6 col-t-6 col-m-12">
                   <div class="box-item">
                     <div class="image">
-                      <a href="">
+                      <a href="javascript::void">
                         <img
                           src="images/Projets/shell/1.png"
-                          style="height: 200px; width: 350px"
                           alt="Project Shell"
+                          style="height: 200px; width: 350px;object-fit: fill;"
                         />
                         <span class="info">
                           <span class="ion ion-document-text"></span>
@@ -2398,7 +3198,7 @@
                       </a>
                     </div>
                     <div class="desc">
-                      <a href="">
+                      <a href="javascript::void">
                         <span class="date">Apr. 2019</span>
                       </a>
                       <a href="" class="name">Project Shell</a>
@@ -2416,11 +3216,9 @@
                   <div class="box-item">
                     <div class="image">
                       <a href="#popup-7" class="has-popup-media">
-                        <img
-                          src="images/Projets/c++/3.jpg"
-                          style="height: 200px; width: 350px"
-                          alt="Project C++"
-                        />
+                        <img src="images/Projets/c++/3.jpg" 
+                             alt="Project C++" 
+                             style="height: 200px; width: 350px;object-fit: fill;" />
                         <span class="info">
                           <span class="ion ion-document-text"></span>
                         </span>
@@ -2450,7 +3248,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/c++/1.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2462,7 +3260,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/c++/2.jpg"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2474,7 +3272,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/c++/3.jpg"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2486,7 +3284,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/c++/4.jpg"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2501,8 +3299,15 @@
                             <div class="blog-detail">Project</div>
                             <div class="blog-content">
                               <p>
-                                Development of a desktop application to improve
-                                energy consumption management
+                                My first video game what an experience! During
+                                my first year at university I had to develop a
+                                video game with C using the SDL library. I still
+                                remember the sleepless nights spending fixing
+                                bugs, creating the map the characters and the
+                                assets, composing soundtracks and music... This
+                                experience helped me make my first step towards
+                                achieving my childhood dream, becoming a video
+                                game developer !
                               </p>
                             </div>
                           </div>
@@ -2517,11 +3322,10 @@
                   <div class="box-item">
                     <div class="image">
                       <a href="#popup-8" class="has-popup-media">
-                        <img
-                          src="images/Projets/jeu/1.png"
-                          style="height: 200px; width: 350px"
-                          alt="Project Jeu"
-                        />
+                        <img src="images/Projets/jeu/1.png" 
+                             alt="Project Jeu"
+                             style="height: 200px; width: 350px;object-fit: fill;"
+                         />
                         <span class="info">
                           <span class="ion ion-document-text"></span>
                         </span>
@@ -2551,7 +3355,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/jeu/1.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2563,7 +3367,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/jeu/2.jpg"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2575,7 +3379,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/jeu/3.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2587,7 +3391,7 @@
                                 <div class="img">
                                   <img
                                     src="images/Projets/jeu/4.png"
-                                    style="height: 500px; width: 750px"
+                                    style="height: 450px; width: 713px;object-fit: fill;"
                                     alt=""
                                   />
                                 </div>
@@ -2774,57 +3578,39 @@
               <input type="submit" class="search-submit" value="Search" />-->
             </section>
             <section class="widget widget_recent_entries">
-              <!--   <h2 class="widget-title">
+                 <h2 class="widget-title">
                 <span class="widget-title-span"
-                  ><span class="first-word">Recent</span> Posts</span
+                  >Platform <span class="first-word">theme</span></span
                 >
               </h2>
               <ul>
                 <li>
-                  <a href="#">Creativity Is More Than</a>
+                  <a onclick="changeTheme('dark')" style="cursor: pointer;">Dark</a>
                 </li>
                 <li>
-                  <a href="#">Designing the perfect</a>
+                  <a onclick="changeTheme('light')" style="cursor: pointer;">Light</a>
                 </li>
-                <li>
-                  <a href="#">Music Player Design</a>
-                </li>
-                <li>
-                  <a href="#">A Song And Dance Act</a>
-                </li>
-                <li>
-                  <a href="#">By spite about do of allow</a>
-                </li>
-              </ul>-->
+               
+              </ul>
             </section>
             <section class="widget widget_recent_comments">
-              <!-- <h2 class="widget-title">
+               <h2 class="widget-title">
                 <span class="widget-title-span"
-                  ><span class="first-word">Recent</span> Comments</span
+                  >Platform <span class="first-word">colors</span></span
                 >
               </h2>
               <ul>
                 <li class="recentcomments">
-                  <span class="comment-author-link">JOHN SMITH</span> on
-                  <a href="#">Creativity Is More Than</a>
+                  <a onclick="changeColor('demo-1-colors')" style="cursor: pointer;">Color 1 <input type="color" style="height: 20px;width:15px;position: relative;bottom: 22px;left:60px;cursor: pointer;"  disabled value="#78cc6d" /></a>
+
                 </li>
-                <li class="recentcomments">
-                  <span class="comment-author-link">ADAM SMITH</span> on
-                  <a href="#">Creativity Is More Than</a>
+                <li class="recentcomments"> 
+                  <a onclick="changeColor('demo-2-colors')" style="cursor: pointer;">Color 2 <input type="color" style="height: 20px;width:15px;position: relative;bottom: 22px;left:60px;cursor: pointer;"  disabled value="#ff9800" /></a>
                 </li>
-                <li class="recentcomments">
-                  <span class="comment-author-link">admin</span> on
-                  <a href="#">Designing the perfect</a>
+                <li class="recentcomments"> 
+                  <a onclick="changeColor('demo-3-colors')" style="cursor: pointer;">Color 3 <input type="color" style="height: 20px;width:15px;position: relative;bottom: 22px;left:60px;cursor: pointer;"  disabled value="#8800ff" /></a>
                 </li>
-                <li class="recentcomments">
-                  <span class="comment-author-link">admin</span> on
-                  <a href="#">Designing the perfect</a>
-                </li>
-                <li class="recentcomments">
-                  <span class="comment-author-link">James</span> on
-                  <a href="#">Designing the perfect</a>
-                </li>
-              </ul>-->
+              </ul>
             </section>
             <section class="widget widget_archive">
               <!--   <h2 class="widget-title">
@@ -2887,9 +3673,10 @@
 
     <!--
             Google map api
+          
         -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXP7AcOxx_OEHLzYxoplrBhfFf1irRit4"></script>
-
+    
+        <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
     <!--
 		Main Scripts
 	-->

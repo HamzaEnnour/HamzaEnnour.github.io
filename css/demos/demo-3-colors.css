@@ -1,27 +1,18 @@
-/**
-*	Ryan - Resume/CV/vCard Template (HTML)
-*	Version: 2.5
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
 
-/*
+
 		Background Gradient
 	*/
 
 	body {
-		background-color: #50a3a2;
+		background-color: #b672e2;
 	}
 
 	.background.gradient {
-		background: #50a3a2;
-		background: -webkit-linear-gradient(top left, #50a3a2 0%, #78cc6d 100%);
-		background: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
+		background: #b672e2;
+		background: -webkit-linear-gradient(top left, #8d50a3 0%, #4b5ad0 100%);
+		background: linear-gradient(to bottom right, #8d50a3 0%, #4b5ad0 100%);
 	}
 	
-	
-
 	
 		/*
 		Primary Color
@@ -88,7 +79,18 @@
 	.single-post-text ul > li:before,
 	.comment-text ul > li:before,
 	.blog-content ul > li:before {
-		background: #78cc6d;
+		background: #8800ff;
+	}
+
+	.card-started .profile .social a .ion, 
+	.card-started .profile .social a .fab, 
+	.card-started .profile .social a .fas, 
+	.card-started .profile .social a .fa, 
+	.content-sidebar .profile .social a .ion, 
+	.content-sidebar .profile .social a .fab, 
+	.content-sidebar .profile .social a .fas, 
+	.content-sidebar .profile .social a .fa {
+		color: #fff;
 	}
 
 	.lnk:hover,
@@ -176,14 +178,14 @@
 	.content-sidebar .profile .social a:hover .fab, 
 	.content-sidebar .profile .social a:hover .fas, 
 	.content-sidebar .profile .social a:hover .fa {
-		color: #78cc6d;
+		color: #8800ff;
 	}
 
 	.content .title .first-word,
 	.content .title:first-letter,
 	.content-sidebar h2.widget-title .first-word,
 	.content-sidebar h2.widget-title:first-letter {
-		color: #78cc6d!important;
+		color: #8800ff!important;
 	}
 
 	.card-started .profile .image:before,
@@ -191,39 +193,30 @@
 	.content .title:before,
 	.box-item .image .info:before,
 	.content-sidebar h2.widget-title:before {
-		background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.15) 0%, rgba(120, 204, 109, 0.01) 100%);
-		background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.15) 0%, rgba(120, 204, 109, 0.01) 100%);
-		background: linear-gradient(135deg, rgba(120, 204, 109, 0.15) 0%, rgba(120, 204, 109, 0.01) 100%);
+		background: -moz-linear-gradient(-45deg, rgba(194, 2, 253, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: -webkit-linear-gradient(-45deg, rgba(194, 2, 253, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: linear-gradient(135deg, rgba(194, 2, 253, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%);
 	}
 
 	.card-started:after {
-		background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
-		background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
-		background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+		background: -moz-linear-gradient(-45deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: -webkit-linear-gradient(-45deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: linear-gradient(135deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
 	}
 
 	.box-item .image .info:before {
-		background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.5) 0%, rgba(120, 204, 109, 0.01) 100%);
-		background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.5) 0%, rgba(120, 204, 109, 0.01) 100%);
-		background: linear-gradient(135deg, rgba(120, 204, 109, 0.5) 0%, rgba(120, 204, 109, 0.01) 100%);
-	}
-
-	.service-items .service-item .icon {
-		background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
-		background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
-		background: linear-gradient(135deg, rgba(120, 204, 109, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
-	}
-	.service-items .service-item .icon {
-		color: #78cc6d !important;
+		background: -moz-linear-gradient(-45deg, rgba(194, 2, 253, 0.5) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: -webkit-linear-gradient(-45deg, rgba(194, 2, 253, 0.5) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: linear-gradient(135deg, rgba(194, 2, 253, 0.5) 0%, rgba(255, 152, 0, 0.01) 100%);
 	}
 
 	.card-started .profile .slide,
 	.content-sidebar .profile .slide {
-		background-color: rgba(120, 204, 109, 0.1);
+		background-color: rgba(194, 2, 253, 0.1);
 	}
 
 	.pricing-items .pricing-item .feature-list ul li strong {
-		background: rgba(120, 204, 109, 0.15);
+		background: rgba(194, 2, 253, 0.15);
 	}
 
 	input:focus, 
@@ -240,27 +233,27 @@
 	.preloader .spinner.clock,
 	.preloader .spinner.box-rotation,
 	.skills-list.circles .progress .bar, .skills-list.circles .progress.p51 .fill, .skills-list.circles .progress.p52 .fill, .skills-list.circles .progress.p53 .fill, .skills-list.circles .progress.p54 .fill, .skills-list.circles .progress.p55 .fill, .skills-list.circles .progress.p56 .fill, .skills-list.circles .progress.p57 .fill, .skills-list.circles .progress.p58 .fill, .skills-list.circles .progress.p59 .fill, .skills-list.circles .progress.p60 .fill, .skills-list.circles .progress.p61 .fill, .skills-list.circles .progress.p62 .fill, .skills-list.circles .progress.p63 .fill, .skills-list.circles .progress.p64 .fill, .skills-list.circles .progress.p65 .fill, .skills-list.circles .progress.p66 .fill, .skills-list.circles .progress.p67 .fill, .skills-list.circles .progress.p68 .fill, .skills-list.circles .progress.p69 .fill, .skills-list.circles .progress.p70 .fill, .skills-list.circles .progress.p71 .fill, .skills-list.circles .progress.p72 .fill, .skills-list.circles .progress.p73 .fill, .skills-list.circles .progress.p74 .fill, .skills-list.circles .progress.p75 .fill, .skills-list.circles .progress.p76 .fill, .skills-list.circles .progress.p77 .fill, .skills-list.circles .progress.p78 .fill, .skills-list.circles .progress.p79 .fill, .skills-list.circles .progress.p80 .fill, .skills-list.circles .progress.p81 .fill, .skills-list.circles .progress.p82 .fill, .skills-list.circles .progress.p83 .fill, .skills-list.circles .progress.p84 .fill, .skills-list.circles .progress.p85 .fill, .skills-list.circles .progress.p86 .fill, .skills-list.circles .progress.p87 .fill, .skills-list.circles .progress.p88 .fill, .skills-list.circles .progress.p89 .fill, .skills-list.circles .progress.p90 .fill, .skills-list.circles .progress.p91 .fill, .skills-list.circles .progress.p92 .fill, .skills-list.circles .progress.p93 .fill, .skills-list.circles .progress.p94 .fill, .skills-list.circles .progress.p95 .fill, .skills-list.circles .progress.p96 .fill, .skills-list.circles .progress.p97 .fill, .skills-list.circles .progress.p98 .fill, .skills-list.circles .progress.p99 .fill, .skills-list.circles .progress.p100 .fill {
-		border-color: #78cc6d;
+		border-color: #8800ff;
 	}
 
 	.preloader .spinner.recursive-circle,
 	.preloader .spinner.recursive-circle:after {
-		border-color: #78cc6d;
+		border-color: #8800ff;
 		border-top-color: transparent;
 	}
 
 	blockquote {
-		border-left-color: #78cc6d;
+		border-left-color: #8800ff;
 	}
 
 	.preloader .spinner.simple-circle {
-		border-right-color: #78cc6d;
+		border-right-color: #8800ff;
 	}
 
 	.preloader .spinner.quantum-spinner,
 	.preloader .spinner.quantum-spinner:before,
 	.preloader .spinner.quantum-spinner:after {
-		border-top-color: #78cc6d;
+		border-top-color: #8800ff;
 	}
 	
 		/*
@@ -278,6 +271,48 @@
 	body {
 		color: #646464;
 	}
-	.arrow:after {
-		
+	
+	
+	
+	
+	
+		/*
+		Classic Version Style
+	*/
+
+	.service-items .service-item .icon {
+		background: -moz-linear-gradient(-45deg, rgba(194, 2, 253, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
+		background: -webkit-linear-gradient(-45deg, rgba(194, 2, 253, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
+		background: linear-gradient(135deg, rgba(194, 2, 253, 0.15) 0%, rgba(255, 152, 0, 0.01) 100%) !important;
+	}
+	.service-items .service-item .icon {
+		color: #8800ff !important;
+	}
+	
+		/*
+		Classic Version Style
+	*/
+	.card-started:after,
+	.card-started .profile .image:before,
+	.content-sidebar .profile .image:before,
+	.content .title:before,
+	.box-item .image .info:before,
+	.content-sidebar h2.widget-title:before {
+		background: -moz-linear-gradient(-45deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: -webkit-linear-gradient(-45deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: linear-gradient(135deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+	}
+	
+		/*
+		Dark Version Style
+	*/
+	.card-started:after,
+	.card-started .profile .image:before,
+	.content-sidebar .profile .image:before,
+	.content .title:before,
+	.box-item .image .info:before,
+	.content-sidebar h2.widget-title:before {
+		background: -moz-linear-gradient(-45deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: -webkit-linear-gradient(-45deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
+		background: linear-gradient(135deg, rgba(194, 2, 253, 0.4) 0%, rgba(255, 152, 0, 0.01) 100%);
 	}

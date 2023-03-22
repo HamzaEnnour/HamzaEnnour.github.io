@@ -567,6 +567,9 @@ function initMap() {
 	});
 }
 
+
+
+/*
 ( function( $ ) {
 	'use strict';
 	
@@ -577,3 +580,13 @@ function initMap() {
     });
 	
 } )( jQuery );
+
+*/
+
+var mymap = L.map('map').setView([36.421132,10.6567568], 14);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution: 'Map data &copy; hamza ennour contributors',
+	maxZoom: 25,
+  }).addTo(mymap);
+var signleMarker = L.marker([36.421132,10.6567568]);  
+signleMarker.addTo(mymap);
