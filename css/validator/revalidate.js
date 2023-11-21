@@ -22,11 +22,9 @@ const changeTheme = (themeName) => {
 const changeColor = (ColorName) => {
   var cssFile = document.getElementById("color");
   cssFile.href = "css/demos/" + ColorName + ".css";
-  console.log(ColorName);
-  localStorage.setItem("selectedColor", colorName);
+  localStorage.setItem("selectedColor", ColorName);
 };
 
-// Check localStorage on page load and apply saved theme and color
 document.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("selectedTheme");
   const savedColor = localStorage.getItem("selectedColor");
