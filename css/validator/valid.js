@@ -10,19 +10,34 @@ const notif = (text, color) => {
 
 const changeTheme = (themeName) => {
   var cssFile = document.getElementById("theme");
-  if(themeName=="dark"){
+  if (themeName == "dark") {
     cssFile.href = "css/template-dark/dark.css";
-  }
-  else {
+  } else {
     cssFile.href = "css/new-skin/classic-skin.css";
   }
-  
+
+  localStorage.setItem("Theme", themeName);
 };
 
 const changeColor = (ColorName) => {
   var cssFile = document.getElementById("color");
-    cssFile.href = "css/demos/"+ColorName+".css";
+  cssFile.href = "css/demos/" + ColorName + ".css";
+  localStorage.setItem("Color", colorName);
 };
+
+// Check localStorage on page load and apply saved theme and color
+document.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("selectedTheme");
+  const savedColor = localStorage.getItem("selectedColor");
+
+  if (savedTheme) {
+    changeTheme(savedTheme);
+  }
+
+  if (savedColor) {
+    changeColor(savedColor);
+  }
+});
 
 $(document).ready(function () {
   $(".errorr2").hide();
@@ -85,12 +100,13 @@ $(document).ready(function () {
       var mailto = $("#emailto").val();
       var message = $("#message").val();
       Email.send({
-        Host: "smtp.gmail.com",
+        Host: "smtp.elasticemail.com",
         //SecureToken : "B7DD90753A75FC4F662C9159CE6AC5F4574EE11C9FA01835C1B681479850DB890E057D10545FC9D9CD1F7C663844C36A",
-        Username: "hamza.ennour.portfolio@gmail.com",
-        Password: "0123azertyuiop",
-        To: "hamza.ennour@esprit.tn",
-        From: "hamza.ennour.portfolio@gmail.com",
+        Port: 2525,
+        Username: "hamzaportfolio@gmail.com",
+        Password: "8123671A892DA814C6F9C2E49C1EBCB073BB",
+        To: "hamza.ennour.portfolio@gmail.com",
+        From: "ennourhamza@gmail.com",
         Subject: "Mail from " + name,
         Body:
           "<html><h2>Hey My Name : " +
